@@ -38,7 +38,7 @@ h3 {
 }
 
 .my-container {
-  height: 75vh;
+  height: 185vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +55,7 @@ h3 {
   margin: auto;
   border: 2px solid black;
   margin-top: 5rem;
+  
 }
 
 form,
@@ -68,7 +69,10 @@ form,
 }
 
 .suicide-form {
-  margin-top: 25rem;
+  margin-top: 10rem;
+  
+  
+  
 }
 
 input {
