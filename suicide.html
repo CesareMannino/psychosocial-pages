@@ -8,37 +8,29 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
+
+  <!-- script that recall navbar.html -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+         $(function(){
+            $('#navbar').load('navbar.html');
+          });
+
+          $(function(){
+          $('#footer').load('footer.html');
+        });
+      </script>
+
+        </script>
+
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="./style/style.css" />
     <title>Suicide</title>
   </head>
   <body>
     <!-- NAVBAR BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Psychosocial-Pages</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div id = "navbar"></div>
      <div class="my-container">
         <form class="suicide-form input-form">
            <h1>Life Is Precious</h1>
@@ -102,5 +94,7 @@
       </form>
 <script src="index.js"></script>
   </body>
+
+  <div id = footer></div>
 </html>
 
