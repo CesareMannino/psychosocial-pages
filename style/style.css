@@ -1,5 +1,9 @@
 /* HOME */
 
+/* * {
+    border: 1px solid red !important;
+ } */
+
 a {
   margin: 1rem;
 }
@@ -37,6 +41,7 @@ h3 {
   margin: 2rem;
 }
 
+/* choice-page */
 .my-container {
   height: 125vh;
   display: flex;
