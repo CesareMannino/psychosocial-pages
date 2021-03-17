@@ -4,6 +4,10 @@
     border: 1px solid red !important;
  } */
 
+ * {
+  box-sizing: border-box;
+}
+
 a {
   margin: 1rem;
 }
@@ -43,7 +47,7 @@ h3 {
 
 /* choice-page */
 .my-container {
-  height: 125vh;
+  height: 155vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,7 +234,7 @@ nav .search-icon{
     opacity: 1;
     pointer-events: auto;
   }
-  nav forms:before{
+  nav forms::before{
     position: absolute;
     content: "";
     top: -13px;
@@ -242,7 +246,7 @@ nav .search-icon{
     border-bottom-color: #1e232b;
     margin: -20px 0 0;
   }
-  nav forms:after{
+  nav forms::after{
     position: absolute;
     content: '';
     height: 60px;
@@ -328,3 +332,96 @@ nav .logo.space{
   margin: 10px 0;
 }
 
+
+
+
+
+
+/* search bar css */
+
+ /* .container{
+  font-family: sans-serif;
+  background-color: #111d4a;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+.containersearch {
+  min-height: 80rem;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#charactersList {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.character {
+  list-style-type: none;
+  background-color: #eaeaea;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: flex;
+  /* grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+      'name image'
+      'address type'; */
+      align-items: center;
+      flex-direction: column;
+  text-align: center;
+  
+}
+
+.character > h2 {
+  /* grid-area: name; */
+  margin-bottom: 0px;
+}
+
+address.character > p {
+  /* grid-area: address; */
+  margin: 0;
+  margin-top: -18px;
+}
+
+.character > img {
+  max-height: 100px;
+  /* grid-area: image; */
+}
+
+.character.type > p {
+  grid-area: type;
+  
+}
+
+#searchBar {
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #fd0000;
+  background: rgb(190, 190, 190);
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#searchWrapper {
+  position: relative;
+}
+
+#searchWrapper::after {
+  content: '🔍';
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}

@@ -5,6 +5,7 @@
         "type": "shelter",
         "phone": "021 94 51 413",
         "email": "bellville@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -15,6 +16,7 @@
         "type": "shelter",
         "phone": "023 312 15 78",
         "email": "ceres@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -24,6 +26,7 @@
         "type": "shelter",
         "phone": "021 7616219",
         "email": "claremont@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -35,6 +38,7 @@
         "type": "shelter",
         "phone": "021 465 1310",
         "email": "district6@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -45,6 +49,7 @@
         "type": "shelter",
         "phone": "021 447 7422",
         "email": "allie@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -55,6 +60,7 @@
         "type": "shelter",
         "phone": "021 788 5820",
         "email": "kalkbay@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -65,6 +71,7 @@
         "type": "shelter",
         "phone": "021 593 0276",
         "email": "kensington@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
@@ -75,8 +82,20 @@
         "type": "shelter",
         "phone": "021 987 1967",
         "email": "kraaifontein@haven.org.za",
+        "website":"",
         "latitude": 33,
         "longitude": 37.33,
         "image": "shelter.jpg"
+    },
+    {
+        "name": "Families South Africa (FAMSA)",
+        "address": "9 Bowden Rd, Observatory Cape Town, WC 7925",
+        "type": "relationship counselling",
+        "phone": "0214477951",
+        "email": "famsa@famsawc.org.za",
+        "website":"http://www.famsawc.org.za/",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "relationship.jpg"
     }
 ]

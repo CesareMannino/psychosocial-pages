@@ -8,7 +8,8 @@ searchBar.addEventListener('keyup', (e) => {
     const filteredCharacters = hpCharacters.filter((character) => {
         return (
             character.name.toLowerCase().includes(searchString) ||
-            character.address.toLowerCase().includes(searchString)
+            character.address.toLowerCase().includes(searchString) ||
+            character.type.toLowerCase().includes(searchString)
         );
     });
     displayCharacters(filteredCharacters);
@@ -31,8 +32,8 @@ const displayCharacters = (characters) => {
             <li class="character">
                 <h2>${character.name}</h2>
                 <p>address: ${character.address}</p>
-                <h3>Type: ${character.type}</h3>
                 <img src="${character.image}"></img>
+                <p>Type: ${character.type}</p>
             </li>
         `;
         })
