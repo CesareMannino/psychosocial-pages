@@ -1,0 +1,82 @@
+[
+    {
+        "name": "The Haven Bellville",
+        "address": "2 South Street, Bellville",
+        "type": "shelter",
+        "phone": "021 94 51 413",
+        "email": "bellville@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {
+        "name": "The Haven Ceres",
+        "address": "1 Owen Street, Ceres",
+        "type": "shelter",
+        "phone": "023 312 15 78",
+        "email": "ceres@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {   "name": "The Haven Claremont",
+        "address": "5 Fir Street, Claremont",
+        "type": "shelter",
+        "phone": "021 7616219",
+        "email": "claremont@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+
+    },
+    {
+        "name": "The Haven District Six",
+        "address": "20 Selkirk Street, 8001 Cape Town",
+        "type": "shelter",
+        "phone": "021 465 1310",
+        "email": "district6@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {
+        "name": "Haven Homes (old age)",
+        "address": "24 Dublin Street, Woodstock, Cape Town",
+        "type": "shelter",
+        "phone": "021 447 7422",
+        "email": "allie@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {
+        "name": "The Haven Kalk bay",
+        "address": "139 Main Road, 7975 Kalk Bay",
+        "type": "shelter",
+        "phone": "021 788 5820",
+        "email": "kalkbay@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {
+        "name": "The Haven Kensington",
+        "address": "Cnr. 13th Ave & Dapper Road, Kensington",
+        "type": "shelter",
+        "phone": "021 593 0276",
+        "email": "kensington@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    },
+    {
+        "name": "The Haven Kraaifontein",
+        "address": "20 Van der Ross street, Kraaifontein",
+        "type": "shelter",
+        "phone": "021 987 1967",
+        "email": "kraaifontein@haven.org.za",
+        "latitude": 33,
+        "longitude": 37.33,
+        "image": "shelter.jpg"
+    }
+]

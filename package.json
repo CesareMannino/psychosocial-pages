@@ -1,0 +1,26 @@
+{
+  "name": "psychosocial-pages",
+  "version": "1.0.0",
+  "description": "helppages project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesareMannino/psychosocial-pages.git"
+  },
+  "keywords": [
+    "shelter",
+    "help"
+  ],
+  "author": "Cesare Mannino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CesareMannino/psychosocial-pages/issues"
+  },
+  "homepage": "https://github.com/CesareMannino/psychosocial-pages#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
