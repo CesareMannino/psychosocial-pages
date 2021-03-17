@@ -38,8 +38,23 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
+  
 }
+
+/* @media (max-width: 1245px) {
+  nav{
+    padding: 0 50px;
+  } */
+
+
+@media (max-width: 900px) {
+  .card-container{
+display: flex;
+flex-direction: column;
+  }
+}
+
 
 .card {
   margin: 2rem;
