@@ -135,6 +135,13 @@ nav .logo{
   font-weight: 600;
   letter-spacing: -1px;
 }
+
+@media (max-width: 410px) {
+ nav .logo{
+    font-size: 25px;
+  }
+}
+
 nav .nav-items{
   display: flex;
   flex: 1;
@@ -210,7 +217,7 @@ nav .search-icon{
     padding: 0px;
   }
   nav .logo{
-    flex: 2;
+    flex: 3;
     text-align: center;
   }
   nav .nav-items{
