@@ -136,7 +136,7 @@ nav .logo{
   letter-spacing: -1px;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 440px) {
  nav .logo{
     font-size: 25px;
   }
