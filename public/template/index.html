@@ -15,6 +15,33 @@
           $('#footer').load('footer.html');
         });
       </script>
+
+<script>
+document.addEventListener('', async event => { 
+  
+  const data = { lat, lon, mood };
+  const options = {
+      method: 'POST',
+      // the headers specify the kind of information
+      // shared between client and server
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      // is a fetch() option that create a string/json package between 
+      // client and server
+      body: JSON.stringify(data)
+  };
+  // the response variable is the one that will  
+  // handle the response from the server
+  const response = await fetch('/api', options);
+  const json = await response.json();
+  console.log(json);
+});
+</script>
+
+
+
+
     <!-- BOOTSTRAP CDN -->
     
     <link
