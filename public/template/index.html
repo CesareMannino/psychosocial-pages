@@ -16,6 +16,13 @@
         });
       </script>
 
+<system.webServer>
+  <staticContent>
+    <mimeMap fileExtension="woff" mimeType="application/font-woff" />
+    <mimeMap fileExtension="woff2" mimeType="application/font-woff" />
+  </staticContent>
+</system.webServer>
+
 <script>
 document.addEventListener('', async event => { 
   
