@@ -81,8 +81,17 @@ flex-direction: column;
   margin: auto;
   border: 2px solid black;
   margin-top: 5rem;
+  height:fit-content;
   
 }
+
+
+@media(max-width:860px){
+  .input-form{
+width: 80%;
+  }
+}
+
 
 form,
 .information {
@@ -90,9 +99,24 @@ form,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 46rem;
-  padding: 2rem;
+  height: 26rem;
+  padding: 1rem;
 }
+
+@media(max-width:1060px){
+  form, .information{
+font-size: 15px;
+  }
+}
+
+@media(max-width:600px){
+  form, .information{
+font-size: 10px;
+  }
+}
+
+
+
 
 .suicide-form {
   margin-top: 6rem;
