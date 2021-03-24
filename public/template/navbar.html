@@ -4,7 +4,15 @@
   <head>
     <meta charset="utf-8">
    <!-- link to load the bootstrap of footer -->
-    <link
+   
+   <system.webServer>
+    <staticContent>
+      <mimeMap fileExtension="woff" mimeType="application/font-woff" />
+      <mimeMap fileExtension="woff2" mimeType="application/font-woff" />
+    </staticContent>
+</system.webServer>
+   
+   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
@@ -16,12 +24,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <!-- to show the fontawesome with heroku -->
-    <system.webServer>
-      <staticContent>
-        <mimeMap fileExtension="woff" mimeType="application/font-woff" />
-        <mimeMap fileExtension="woff2" mimeType="application/font-woff" />
-      </staticContent>
-  </system.webServer>
+ 
   </head>
   <body>
     <nav>
